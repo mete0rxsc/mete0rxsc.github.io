@@ -24,5 +24,22 @@
   "blog": "汀彵の汐",
   "desc": "好事多磨，浪漫不死",
   "color": "#FFC0CB"
+  },
+  {
+    "url": "https://scfc.top/",
+    "avatar": "https://scfc.top/favicon.ico",
+    "name": "SCFCの博客",
+    "blog": "SCFCの博客",
+    "desc": "可惜...屠龙少年终成恶龙",
+    "email": "gemiidozenz@hotmail.com",
+    "color": "#0078e7"
+  },
+  {
+    "url": "https://i.bbb-lsy07.sbs/",
+    "avatar": "https://i.bbb-lsy07.sbs/upload/quality_restoration_20250211145207618.JPG",
+    "name": "bbb-lsy07",
+    "blog": "bbb-lsy07",
+    "desc": "科技激荡人文，洞见智慧本真。",
+    "color": "#7B68EE"
   }
 ]
