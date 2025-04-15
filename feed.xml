@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnas.top/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Tue, 15 Apr 2025 14:11:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Apr 2025 15:29:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,21 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2025 © Mete0r</copyright>
         <atom:link href="https://www.xscnas.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[(四)]]></title>
+            <link>https://www.xscnas.top/posts/p1420250415</link>
+            <guid>https://www.xscnas.top/posts/p1420250415</guid>
+            <pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>::: zh-CN</p>
+<p>许久不见各位<br>
+报个平安<br>
+最近安然无恙</p>
+<h3>最近的项目</h3>
+<p>最近开发了几个适配这个Yun主题的Vue插件</p>
+<p>[点我查看valaxy-yun-exte</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1420250415" target="_blank">https://www.xscnas.top/posts/p1420250415</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
         <item>
             <title><![CDATA[Valaxy Yun External Link]]></title>
             <link>https://www.xscnas.top/posts/p1320250414</link>
