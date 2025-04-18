@@ -19,5 +19,9 @@
     "https://xyzbz.cn/",
     "https://www.sicx.top/",
     "https://blog.dreamerhe.cn/"
+  ],
+  "domain": [
+    "http://localhost:4859",
+    "https://www.xscnas.top"
   ]
 }

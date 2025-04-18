@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社交联系方式</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* 禁用页面滚动 */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://imgse.koxiuqiu.cc/imgse/u/23/2025/03/11/67d05c70b90bb.png');
+            background-size: cover; /* 背景图覆盖整个页面 */
+            background-position: center; /* 背景图居中 */
+            background-repeat: no-repeat; /* 防止背景图重复 */
+        }
+        .social-links {
+            margin-top: 50px;
+        }
+        .social-links a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #FFA500; /* 橘黄色 */
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.5s;
+            background-image: url('https://imgse.koxiuqiu.cc/imgse/u/23/2025/03/29/67e7fa90e0f8a.png');
+            background-size: cover; /* 背景图覆盖整个内容区域 */
+            background-position: center; /* 背景图居中 */
+            background-repeat: no-repeat; /* 防止背景图重复 */
+            border-radius: 10px; /* 添加圆角以便更好地观察背景图 */
+            overflow: hidden; /* 禁用页面滚动 */
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px; /* 添加圆角以便更好地观察图片 */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>社交联系方式</h1>
+    <div class="social-links">
+        <a id="wechat-link">微信二维码(非必要请不要添加)</a></p>
+        <a id="qq-link">QQ二维码</a>
+    </div>
+
+    <!-- 微信模态框 -->
+    <div id="wechat-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="wechat-close">&times;</span>
+            <img src="/IMG_4C1471CCDCB8398D279470A9637821AB.jpg" alt="微信二维码">
+        </div>
+    </div>
+
+    <!-- QQ模态框 -->
+    <div id="qq-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="qq-close">&times;</span>
+            <img src="/IMG_D07B733011651E66FD24E8C4A812397C.jpg" alt="QQ二维码">
+        </div>
+    </div>
+
+    <script>
+        // 获取模态框元素
+        var wechatModal = document.getElementById("wechat-modal");
+        var qqModal = document.getElementById("qq-modal");
+
+        // 获取打开模态框的链接
+        var wechatLink = document.getElementById("wechat-link");
+        var qqLink = document.getElementById("qq-link");
+
+        // 获取关闭模态框的按钮
+        var wechatClose = document.getElementById("wechat-close");
+        var qqClose = document.getElementById("qq-close");
+
+        // 打开微信模态框
+        wechatLink.onclick = function() {
+            wechatModal.style.display = "block";
+        }
+
+        // 打开QQ模态框
+        qqLink.onclick = function() {
+            qqModal.style.display = "block";
+        }
+
+        // 关闭微信模态框
+        wechatClose.onclick = function() {
+            wechatModal.style.display = "none";
+        }
+
+        // 关闭QQ模态框
+        qqClose.onclick = function() {
+            qqModal.style.display = "none";
+        }
+
+        // 点击模态框外部关闭
+        window.onclick = function(event) {
+            if (event.target == wechatModal) {
+                wechatModal.style.display = "none";
+            }
+            if (event.target == qqModal) {
+                qqModal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

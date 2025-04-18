@@ -105,5 +105,13 @@
     "blog": "网友小宋",
     "desc": "一介草民，只为生活！",
     "color": "#0078e7"
+  },
+  {
+    "name": "清羽飞扬",
+    "blog": "清羽飞扬",
+    "url": "https://blog.liushen.fun/",
+    "avatar": "https://blog.liushen.fun/info/avatar.ico",
+    "desc": "柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜",
+    "color": "#7B68EE"
   }
 ]
