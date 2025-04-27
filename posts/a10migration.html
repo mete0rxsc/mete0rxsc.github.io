@@ -1,0 +1,450 @@
+<!DOCTYPE html><html lang="en" data-beasties-container><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.png"><script>!function(){const e=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,t=localStorage.getItem("vueuse-color-scheme")||"auto";("dark"===t||e&&"light"!==t)&&document.documentElement.classList.toggle("dark",!0)}()</script><style type="text/css">:root{color-scheme:light dark;--va-c-bg:#fff}html{background-color:var(--va-c-bg)}*,:after,:before{box-sizing:border-box;border-width:0;border-style:solid;border-color:var(--un-default-border-color,#e5e7eb)}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}h1,h2,h3,h4,h5{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}strong{font-weight:bolder}code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}button{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button{text-transform:none}button{-webkit-appearance:button;background-image:none}blockquote,figure,h1,h2,h3,h4,h5,p,pre{margin:0}ul{list-style:none;margin:0;padding:0}button{cursor:pointer}img{display:block;vertical-align:middle}img{max-width:100%;height:auto}body{counter-reset:katexEqnNo mmlEqnNo}:root{--va-c-border:#c2c2c4;--va-c-divider:#e2e2e3;--va-c-gutter:#e2e2e3}:root{--va-c-gray-1:#dddde3;--va-c-gray-2:#e4e4e9;--va-c-gray-3:#ebebef;--va-c-gray-soft:rgba(142, 150, 170, .14);--va-c-indigo-1:#3451b2;--va-c-indigo-2:#3a5ccc;--va-c-indigo-3:#5672cd;--va-c-indigo-soft:rgba(100, 108, 255, .14);--va-c-green-1:#18794e;--va-c-green-2:#299764;--va-c-green-3:#30a46c;--va-c-green-soft:rgba(16, 185, 129, .14);--va-c-yellow-1:#915930;--va-c-yellow-2:#946300;--va-c-yellow-3:#9f6a00;--va-c-yellow-soft:rgba(234, 179, 8, .14);--va-c-red-1:#b8272c;--va-c-red-2:#d5393e;--va-c-red-3:#e0575b;--va-c-red-soft:rgba(244, 63, 94, .14);--va-c-sponsor:#db2777}:root{--va-c-default-1:var(--va-c-gray-1);--va-c-default-2:var(--va-c-gray-2);--va-c-default-3:var(--va-c-gray-3);--va-c-default-soft:var(--va-c-gray-soft);--va-c-brand-1:var(--va-c-indigo-1);--va-c-brand-2:var(--va-c-indigo-2);--va-c-brand-3:var(--va-c-indigo-3);--va-c-brand-soft:var(--va-c-indigo-soft);--va-c-brand:var(--va-c-brand-1);--va-c-tip-1:var(--va-c-brand-1);--va-c-tip-2:var(--va-c-brand-2);--va-c-tip-3:var(--va-c-brand-3);--va-c-tip-soft:var(--va-c-brand-soft);--va-c-warning-1:var(--va-c-yellow-1);--va-c-warning-2:var(--va-c-yellow-2);--va-c-warning-3:var(--va-c-yellow-3);--va-c-warning-soft:var(--va-c-yellow-soft);--va-c-danger-1:var(--va-c-red-1);--va-c-danger-2:var(--va-c-red-2);--va-c-danger-3:var(--va-c-red-3);--va-c-danger-soft:var(--va-c-red-soft)}:root{--va-aside-width:256px;--va-sidebar-width:300px;--va-border-width:1px;--va-font-serif:"Noto Serif SC",DM Serif Display,STZhongsong,STKaiti,KaiTi,Roboto,serif;--va-font-sans:DM Sans,Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--va-font-mono:DM Mono,Menlo,Monaco,Consolas,"Courier New",monospace;--va-transition-duration-fast:.2s;--va-transition-duration:.4s;--va-transition-duration-slow:.6s;--va-transition:all var(--va-transition-duration-fast) ease-in-out}:root{--va-c-white:#fff;--va-c-black:#1a1a1a;--va-c-gray:#8e8e8e;--va-c-danger:#db2828;--va-c-warning:#f2711c;--va-c-text-light-1:#213547;--va-c-text-light-2:rgba(60, 60, 60, .7);--va-c-text-light-3:rgba(60, 60, 60, .33);--va-c-text-light-4:rgba(60, 60, 60, .18);--va-c-text-dark-1:rgba(255, 255, 255, .87);--va-c-text-dark-2:rgba(235, 235, 235, .6);--va-c-text-dark-3:rgba(235, 235, 235, .38);--va-c-text-dark-4:rgba(235, 235, 235, .18);--va-c-primary-light:rgb(3.9, 134.3415584416, 255);--va-c-primary-lighter:rgb(31.8, 147.7480519481, 255);--va-c-primary-dark:rgb(0, 108, 207.9);--va-c-primary:#0078e7}:root{color-scheme:light;--va-c-brand:#0078e7;--va-border-color:#222;--va-c-text:#333;--va-c-text-light:#555;--va-c-text-lighter:#666;--va-c-text-dark:#111;--va-c-primary-rgb:0,120,231;--va-c-link:var(--va-c-primary-dark)}:root{--va-c-text-1:rgba(60, 60, 67);--va-c-text-2:rgba(60, 60, 67, .78);--va-c-text-3:rgba(60, 60, 67, .56)}:root{--va-c-bg:#ffffff;--va-c-bg-light:#ffffff;--va-c-bg-dark:#fafafa;--va-c-bg-opacity:rgba(255, 255, 255, .8);--va-c-bg-soft:#f9f9f9;--va-c-bg-alt:#f9f9f9;--va-c-bg-mute:#f1f1f1}:root{--va-code-line-height:1.7;--va-code-font-size:.875em;--va-code-block-color:var(--va-c-text-2);--va-code-block-bg:var(--va-c-bg-alt);--va-code-block-divider-color:var(--va-c-gutter);--va-code-lang-color:var(--va-c-text-3);--va-code-line-highlight-color:var(--va-c-default-soft);--va-code-line-number-color:var(--va-c-text-3);--va-code-line-diff-add-color:var(--va-c-green-soft);--va-code-line-diff-add-symbol-color:var(--va-c-green-1);--va-code-line-diff-remove-color:var(--va-c-red-soft);--va-code-line-diff-remove-symbol-color:var(--va-c-red-1);--va-code-line-warning-color:var(--va-c-yellow-soft);--va-code-line-error-color:var(--va-c-red-soft);--va-code-copy-code-border-color:var(--va-c-divider);--va-code-copy-code-bg:var(--va-c-bg-soft);--va-code-copy-code-hover-border-color:var(--va-c-divider);--va-code-copy-code-hover-bg:var(--va-c-bg);--va-code-copy-code-active-text:var(--va-c-text-2);--va-code-copy-copied-text-content:"Copied";--va-code-tab-divider:var(--va-code-block-divider-color);--va-code-tab-text-color:var(--va-c-text-2);--va-code-tab-bg:var(--va-code-block-bg);--va-code-tab-hover-text-color:var(--va-c-text-1);--va-code-tab-active-text-color:var(--va-c-text-1);--va-code-tab-active-bar-color:var(--va-c-brand-1)}:root{--va-icon-copy:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(128,128,128,1)' stroke-width='2' class='h-6 w-6' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2'/%3E%3C/svg%3E");--va-icon-copied:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(128,128,128,1)' stroke-width='2' class='h-6 w-6' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4'/%3E%3C/svg%3E");--va-icon-collapse:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32' stroke='rgba(128,128,128,1)' viewBox='0%200%2024%2024'%3E%3Cpath%20fill='currentColor'%20d='m12%2016.175l3.9-3.875q.275-.275.688-.288t.712.288q.275.275.275.7t-.275.7l-4.6%204.6q-.15.15-.325.213t-.375.062q-.2%200-.375-.063T11.3%2018.3l-4.6-4.6q-.275-.275-.288-.687T6.7%2012.3q.275-.275.7-.275t.7.275l3.9%203.875Zm0-6L15.9%206.3q.275-.275.688-.287t.712.287q.275.275.275.7t-.275.7l-4.6%204.6q-.15.15-.325.213t-.375.062q-.2%200-.375-.062T11.3%2012.3L6.7%207.7q-.275-.275-.288-.688T6.7%206.3q.275-.275.7-.275t.7.275l3.9%203.875Z'/%3E%3C/svg%3E")}:root{--va-header-anchor-symbol:"#"}html{-webkit-tap-highlight-color:transparent;font-family:var(--va-font-sans)}a{color:var(--va-c-link);font-weight:500}*{outline:0}button{background-color:transparent}#app,body,html{margin:0;padding:0;line-height:2}html{background-color:var(--va-c-bg)}a{cursor:pointer}*,:after,:before{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / .5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: }</style><script>const locale=localStorage.getItem("valaxy-locale")||"zh-CN";document.documentElement.setAttribute("lang",locale)</script><script type="module" async crossorigin src="/assets/app.C7s_ck_O.js"></script><link rel="modulepreload" crossorigin href="/assets/framework.BJ_UGP-K.js"><link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.CWHyo4u9.js"><link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.Byk5cVHE.js"><link rel="modulepreload" crossorigin href="/assets/chunks/pinia.rdBI-am1.js"><link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.CWNv2zlx.js"><link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Cino7761.js"><link rel="stylesheet" crossorigin href="/assets/app.mW8RfhGB.css" onload='this.rel="stylesheet"'><noscript><link rel="stylesheet" crossorigin href="/assets/app.mW8RfhGB.css"></noscript><link rel="modulepreload" crossorigin href="/assets/post.ByMVusQf.js"><link rel="modulepreload" crossorigin href="/assets/a10migration.tHoAtTBp.js"><title>MC服务器开服全解-特保姆 - 朽丘秋雨-来自klcdm美好虚拟世界</title><meta property="og:locale:alternate" content="en"><meta property="og:description" content="本文所述内容具有依赖性，可能因软硬条件不同而与预期有所差异，故请以实际为准，仅供参考。使用 CDN，一般都是出于加速和安全防护的目的，但是经常一些有意无意的配置导致源站 IP 暴露，致使 CDN 防护失效，本文将探讨如何更好地保护源站 IP 安全。下面简单描述一下常见的一些扫源站的法子，不过不局限于这些，这是博主已知的范围"><meta property="og:locale" content="zh-CN"><meta property="og:site_name" content="朽丘秋雨-来自klcdm美好虚拟世界"><meta property="og:title" content="MC服务器开服全解-特保姆"><meta property="og:image" content="https://koimg.cn-sy1.rains3.com/2024/08/28/526505.webp"><meta property="og:type" content="website"><meta property="og:url" content="https://blog.koxiuqiu.cc/"><link rel="icon" href="/favicon.png" type="image/png"><meta name="description" content="一定会和喜欢的人在夏日夜晚牵手慢步"><meta name="generator" content="Valaxy 0.22.14"><script id="check-mac-os" async>document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform))</script><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="data:font/woff2;base64,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"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2"></head><body><div id="app" data-server-rendered="true"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><main><!--[--><article class="markdown-body"><!--[--><!--[--><blockquote><p>本系列为持续更新内容，如果发现有需要补充或者错误直接留言，各平台都会进行更新修复内容</p></blockquote><p><strong><s>本文基于</s></strong> <a href="https://www.rainyun.com/home" target="_blank" rel="noreferrer"><strong><s>雨云 - 新一代云服务提供商 (rainyun.com)</s></strong></a><strong><s>进行编写</s></strong></p><p>本文可能有亿点长，如果有写错的可以反馈一下我我去实施更新，同时也会后面挑时间去完善，这里会标注更新时间</p><p><strong>最后一次更新时间为：2024|6|29|19:30 - 目前字数约：7.5k</strong></p><h1 id="服务器选择" tabindex="-1">服务器选择 <a class="header-anchor" href="#服务器选择" aria-label="Permalink to &quot;服务器选择&quot;">​</a></h1><p>会以萌新简单易懂的角度去说明独立IP以及NAT的区别，并且说明各自的好处以及注意事项，和不可用的环境以及问题所在</p><h2 id="独立公网ip" tabindex="-1">独立公网IP <a class="header-anchor" href="#独立公网ip" aria-label="Permalink to &quot;独立公网IP&quot;">​</a></h2><p>顾名思义，独立IP地址即为服务器开通单独IP，可以直接用IP进行公网访问：例如：222.187.238.202</p><p>独立IP的话，通常外面的人使用 <code>您的服务器IP:服务端口</code> 就可以访问到</p><p>IP地址是由32位(bit)字组成，分成4组，每组为0-255之间的数字，比如说：222.187.238.202 就是一个IP地址。每台机器都需要一个IP来连接到Internet上进行通讯。虽然有上百亿个IP可以使用， 但是毕竟是有限的（大厂）</p><p>那么有什么用呢？</p><p>用于我的世界服务器，他可以让你直接不用去单独分配端口，用什么端口就用什么，例如我的世界服务器默认的端口是25565，所以你就可以直接连接服务器的地址就是IP:25565</p><p>并且独立IP，在国内也可以享有一些高防IP，用于防御DDOS攻击等</p><h2 id="nat模式" tabindex="-1">NAT模式 <a class="header-anchor" href="#nat模式" aria-label="Permalink to &quot;NAT模式&quot;">​</a></h2><p>在 <a href="https://forum.rainyun.com/t/topic/5222" target="_blank" rel="noreferrer">生动的解释各种概念</a> 中就生动说明了NAT</p><p>NAT模式就是你的服务器处于同一网络IP环境下，属于共享IP，多人的去用一个IP，这种共享IP有一个坏处就是，有一个人遭受攻击等问题，就会波联到一群人，而且端口不能自定义，内网和外网的端口不是一致的，这个IP的外网端口被他人创建使用的话你就不能再次创建使用，例如我开放内网25565，外网端口是11451，如果11451已经被创建了你就不能使用只能创建11452或者其他的端口</p><p>对于共享IP，我们需要设定一条NAT规则，这样就可以让外部的链接可以访问本地服务器上的服务。</p><blockquote><p>如果不懂，可以跳过，不需要完全理解后续也会图文操作</p></blockquote><h1 id="系统的选择" tabindex="-1">系统的选择 <a class="header-anchor" href="#系统的选择" aria-label="Permalink to &quot;系统的选择&quot;">​</a></h1><p>以我懂的方面来说，我的世界服务器支持Windows以及Linux系统，个人推荐萌新可以去选择Windows系统，相对于Linux更简单，当然，Linux也可以直接使用一键部署面板系统来进行网页操作，甚至是<s>Docker</s>容器（被和谐）</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tuayx1.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h1 id="服务器核心" tabindex="-1">服务器核心 <a class="header-anchor" href="#服务器核心" aria-label="Permalink to &quot;服务器核心&quot;">​</a></h1><p>服务器核心分为很多种</p><h2 id="原版服核心" tabindex="-1">原版服核心 <a class="header-anchor" href="#原版服核心" aria-label="Permalink to &quot;原版服核心&quot;">​</a></h2><p>1、官方原版服核心：</p><blockquote><p>最原始的服务器核心，不能加任何元素附属，比如插件模组这些</p></blockquote><h2 id="插件服核心" tabindex="-1">插件服核心 <a class="header-anchor" href="#插件服核心" aria-label="Permalink to &quot;插件服核心&quot;">​</a></h2><p>1、Spigot核心：</p><p><a href="https://getbukkit.org/download/spigot/" target="_blank" rel="noreferrer">https://getbukkit.org/download/spigot/</a></p><p>2、Paper核心【优化】:</p><p><a href="https://papermc.io/downloads/paper/" target="_blank" rel="noreferrer">https://papermc.io/downloads/paper/</a></p><p>3、Akarin核心【多线程】：</p><p><a href="https://github.com/Akarin-project/Akarin/" target="_blank" rel="noreferrer">https://github.com/Akarin-project/Akarin/</a></p><blockquote><p>可以加插件等扩展，如果想做小游戏或者有趣的原版生存服务器可以尝试</p></blockquote><h2 id="模组服核心" tabindex="-1">模组服核心 <a class="header-anchor" href="#模组服核心" aria-label="Permalink to &quot;模组服核心&quot;">​</a></h2><p>1、Fabric核心：</p><p><a href="https://fabricmc.net/" target="_blank" rel="noreferrer">https://fabricmc.net/</a></p><p>2、Forge核心：</p><p><a href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noreferrer">https://files.minecraftforge.net/net/minecraftforge/forge/</a></p><blockquote><p>可以加模组等扩展，不过对于服务器性能有一定要求</p></blockquote><h2 id="插件模组服核心" tabindex="-1">插件模组服核心 <a class="header-anchor" href="#插件模组服核心" aria-label="Permalink to &quot;插件模组服核心&quot;">​</a></h2><p>1、Mohist核心：</p><p><a href="https://mohistmc.com/" target="_blank" rel="noreferrer">https://mohistmc.com/</a></p><p>2、CatServer核心：</p><p><a href="https://github.com/Luohuayu/CatServer/tree/1.12.2" target="_blank" rel="noreferrer">https://github.com/Luohuayu/CatServer/tree/1.12.2</a></p><blockquote><p>插件模组都可以加，对于服务器性能相对较高，同时混合端BUG也可能比其他的多</p></blockquote><h2 id="基岩服核心" tabindex="-1">基岩服核心 <a class="header-anchor" href="#基岩服核心" aria-label="Permalink to &quot;基岩服核心&quot;">​</a></h2><p>1、Bedrock Server核心【原版】：</p><p><a href="https://www.minebbs.com/bds/" target="_blank" rel="noreferrer">https://www.minebbs.com/bds/</a></p><p>2、LiteLoaderBDS核心【插件】：</p><p><a href="https://github.com/LiteLDev/LiteLoaderBDS/releases" target="_blank" rel="noreferrer">https://github.com/LiteLDev/LiteLoaderBDS/releases</a></p><p>3、NukkitX核心</p><p><a href="https://cloudburstmc.org/articles/" target="_blank" rel="noreferrer">https://cloudburstmc.org/articles/</a></p><blockquote><p>基岩端的一些服务器核心，</p></blockquote><h2 id="服务器核心下载" tabindex="-1">服务器核心下载 <a class="header-anchor" href="#服务器核心下载" aria-label="Permalink to &quot;服务器核心下载&quot;">​</a></h2><p><a href="https://www.fastmirror.net/#/home" target="_blank" rel="noreferrer">https://www.fastmirror.net/#/home</a></p><p><a href="https://mcres.cn/" target="_blank" rel="noreferrer">灵依资源站 | 一个网站下载所有MC开服资源 (mcres.cn)</a></p><p>大致也可以分为</p><ul><li>原版端</li><li>插件端</li><li>Mod端</li><li>混合端</li><li>代理端</li><li>…</li></ul><h1 id="开始实操" tabindex="-1">开始实操 <a class="header-anchor" href="#开始实操" aria-label="Permalink to &quot;开始实操&quot;">​</a></h1><p>废话也不多说了，直接开始实操，如果有什么需要前面补充的可以留言给我我会进行更新修补</p><h2 id="准备服务器" tabindex="-1">准备服务器 <a class="header-anchor" href="#准备服务器" aria-label="Permalink to &quot;准备服务器&quot;">​</a></h2><p>这里还是以雨云的视角来提供操作，下面简单放一些性能测试图（5900X）</p><blockquote><p>如果你有自己的服务器供应商了也可以使用，只需要换位思考一下操作流程就行，操作性质都是相同的</p></blockquote><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tue8kg.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tuqia0.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>注册一个雨云账户<a href="https://www.rainyun.com/home" target="_blank" rel="noreferrer">雨云 - 新一代云服务提供商 (rainyun.com)</a></p><p>安装要求去填写你编辑的个人账户信息，优惠码可以填写<code>vip5r</code> 然后勾选： <strong>我已阅读并接受 服务条款</strong></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tusalj.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>注册完成，就可以前往选择服务器</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tuuvwm.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后这里我们选择VPS服务器类型</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tuwrf9.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>区域选择的话，目前来看，宿迁支持NAT而宁波只能独立公网</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tuyrex.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>开我的世界服务器，服务器CPU自然是单核性能高更好，目前有6款CPU型号去选择，一般5900X是比较普遍性的一个选择，无论是混合服务器还是插件服务器都有相对不错的表现但是需求不高玩个生存或者小插件其实可以选择Gold 6146或者E5 2666v3</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tvapvn.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>对于计费模式的选择，如果说你的服务器全天都CPU占用高于50，可以使用固定计费不用麻烦，如果是说一天下来占用很理想，可以选择动态计费，它可以帮助你省钱；</p><p><a href="https://forum.rainyun.com/t/topic/648" target="_blank" rel="noreferrer">https://forum.rainyun.com/t/topic/648</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tvdwmu.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>关于配置选择，可以直接使用官方预设的配置，如果说是类似生电服务器多人服务器，则是可以选择内存拉高点，带宽一般15-20M左右即可</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tvgca9.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>期间发现TPS降低则是配置不够，或者是你加了奇怪的东西导致优化差劲</p><blockquote><p>什么是TPS？它是指Minecraft中的每秒刻数，MC服务器表现不错的情况下是20-19TPS，如果18TPS也可以接受，但是低于18的话你可能要考虑升级服务器配置或者是优化服务端</p></blockquote><p>选择好自己的需求后，直接开通或者是点击使用，如果是4C以上则是2元试用，同时支持7天退款，你可能需要了解一下</p><p><a href="https://forum.rainyun.com/t/topic/18" target="_blank" rel="noreferrer">https://forum.rainyun.com/t/topic/18</a></p><p>对于独立公网和NAT的选择，下面的写作都会写两个视角去说明，不用担心</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tviwvg.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h2 id="连接服务器windows" tabindex="-1">连接服务器Windows <a class="header-anchor" href="#连接服务器windows" aria-label="Permalink to &quot;连接服务器Windows&quot;">​</a></h2><p>两种方案</p><h3 id="指令打开" tabindex="-1">指令打开 <a class="header-anchor" href="#指令打开" aria-label="Permalink to &quot;指令打开&quot;">​</a></h3><p>win键+R打开运行窗口，输入<code>mstsc</code></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tvkifq.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tvusap.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h3 id="搜索打开" tabindex="-1">搜索打开 <a class="header-anchor" href="#搜索打开" aria-label="Permalink to &quot;搜索打开&quot;">​</a></h3><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tw5z7a.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h3 id="nat模式-1" tabindex="-1">NAT模式 <a class="header-anchor" href="#nat模式-1" aria-label="Permalink to &quot;NAT模式&quot;">​</a></h3><p>进入服务器管理面板，右边就有一个NAT的控制台，Windows远程控制端口一般是3389，如果没有开放就创建一个就行，内网端口填3389外网端口一般自己会生成</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/twgbn1.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/twiv92.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/twlc2j.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/twpije.png" alt="|565pxx220px" loading="lazy" decoding="async" class="lazy"></figure><h3 id="独立公网ip模式" tabindex="-1">独立公网IP模式 <a class="header-anchor" href="#独立公网ip模式" aria-label="Permalink to &quot;独立公网IP模式&quot;">​</a></h3><p>直接输入IP，不用NAT这么麻烦，雨云默认防火墙全开端口全开放</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/twrylf.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h2 id="连接服务器linux" tabindex="-1">连接服务器Linux <a class="header-anchor" href="#连接服务器linux" aria-label="Permalink to &quot;连接服务器Linux&quot;">​</a></h2><p>可以下载SSH连接工具连接，这里推荐Xterminal</p><p><a href="https://www.xterminal.cn/" target="_blank" rel="noreferrer">https://www.xterminal.cn/</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tx5iu0.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>这里注意端口，如果是独立公网直接输入IP忽视就行，默认一般22，如果是NAT则是需要自行开放22端口，如图</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tx8kxt.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后连接端口就改成对应的外网端口</p><blockquote><p>下面开始创建MC服务器</p></blockquote><h1 id="windows篇-部署mc服" tabindex="-1">Windows篇-部署MC服 <a class="header-anchor" href="#windows篇-部署mc服" aria-label="Permalink to &quot;Windows篇-部署MC服&quot;">​</a></h1><h2 id="java篇" tabindex="-1">JAVA篇 <a class="header-anchor" href="#java篇" aria-label="Permalink to &quot;JAVA篇&quot;">​</a></h2><p>对于JAVA，我的世界服务器主要吃单核性能（高版本以及对多核进行处理并且有核心进行优化），所以说可以选择一些高U配置服务器</p><h3 id="主要" tabindex="-1">主要 <a class="header-anchor" href="#主要" aria-label="Permalink to &quot;主要&quot;">​</a></h3><h4 id="下载核心" tabindex="-1">下载核心 <a class="header-anchor" href="#下载核心" aria-label="Permalink to &quot;下载核心&quot;">​</a></h4><p>先写一下主要的开启部署流程，这里先准备下素材</p><ul><li>服务器jar核心</li><li>Java环境</li><li>启动脚本</li><li>基本配置</li></ul><p>这里下载你要的版本，我自己有1.12.2版本的核心就不用最新版本了看你要玩什么版本（不在详细说明官方核心，官方核心写完脚本启动就直接玩了）</p><p><a href="https://mohistmc.com/" target="_blank" rel="noreferrer">https://mohistmc.com/</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txapfz.png" alt="|566pxx147px" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txdx50.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txoqzi.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txr8lx.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>等待下载完成，这里下载完了就把核心改名成<code>server.jar</code> 你也可以不改直接用</p><p>然后按照正常复制文本一样，直接复制到服务器（当然你服务器上游览器下载也没问题）</p><h4 id="编写脚本" tabindex="-1">编写脚本 <a class="header-anchor" href="#编写脚本" aria-label="Permalink to &quot;编写脚本&quot;">​</a></h4><p>然后创建一个文件夹，把jar核心文件丢进去，然后创建一个文本，把他改成你要的名字.bat，改成bat后缀</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txw92b.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/txz3vl.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>如果你没后缀这个显示就开一下显示</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/ty9mou.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后编写一个简单的启动脚本</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tybjef.png" alt="|566pxx70px" loading="lazy" decoding="async" class="lazy"></figure><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>@ECHO OFF</span></span>
+<span class="line"><span>"C:\Program Files\Java\dragonwell_8\bin\java.exe" -Xmx4G -Xms4G -jar server.jar</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>%0</span></span></code></pre><button class="collapse"></button></div><p>脚本解析：</p><ul><li>"C:\Program Files\Java\dragonwell_8\bin\java.exe"</li></ul><blockquote><p>Java版本的选择根据你MC服务器核心的版本，这里演示后面换成了1.12.2MC服务器版本，所以说用的是Java8</p></blockquote><blockquote><p>从1.12（17w13a）开始，运行Minecraft的最低要求是Java 8。</p><p>从1.17（21w19a）开始，运行Minecraft的最低要求是Java 16。</p><p>从1.18（1.18-pre2）开始，运行Minecraft的最低要求是Java 17。</p><p>从1.20.5（24w14a）开始，运行Minecraft的最低要求是Java 21，且操作系统要求为64位。</p></blockquote><p>Java文件路径，雨云的游戏云服务器默认都有配好，一般路径是 <img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tydpha.png" alt="|566pxx121px"></p><ul><li>-Xmx4G -Xms4G</li></ul><p>最大内存和最小内存，看你服务器配置有多少，一般一样就行，不过MC服务器10G就差不多够用了生电服另说</p><ul><li>-jar server.jar</li></ul><p>jar核心文件的名字，这里要填写完整</p><ul><li>%0</li></ul><p>循环脚本，你可以理解服务器出错或者关闭后自动开启服务器，可不加</p><p>双击启动等待下载服务器文件完全</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tyg85e.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>出现同意协议直接输入true就行</p><blockquote><p>或者是关闭窗口修改协议文件false修改成true，有的是修改文件，文件叫：<strong>eula.txt</strong></p></blockquote><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tyikbp.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tytks8.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>当出现help提示就说明服务器已经开启完毕了，我这个核心汉化了，有的核心是英文不过道理一样都是看到help就是开启完毕</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tyvxd2.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h4 id="连接服务器" tabindex="-1">连接服务器 <a class="header-anchor" href="#连接服务器" aria-label="Permalink to &quot;连接服务器&quot;">​</a></h4><p>回到雨云服务器管理控制台，添加一个端口，内网端口MC默认是25565</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tyy0nb.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tyzwwp.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后回到客户端，CTRL+V粘贴地址即可</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tz1nue.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tz3i2n.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h4 id="服务器配置" tabindex="-1">服务器配置 <a class="header-anchor" href="#服务器配置" aria-label="Permalink to &quot;服务器配置&quot;">​</a></h4><p>找到<code>server.properties</code> 文件，右键编辑或者n++打开</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tz5kpi.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>这里就放出简单的翻译</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>#设置监听服务器的端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>generator-settings=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#用于自定义超平坦世界的生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>force-gamemode=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家加入服务器时强制变成默认游戏模式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>allow-nether=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否开启地狱世界(关闭后删除将不会生成地狱世界)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enforce-whitelist=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#在服务器上强制执行白名单。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>gamemode=survival</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置玩家的游戏模式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>broadcast-console-to-ops=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#*给op发送控制台信息?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-query=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否开启GameSpy4协议服务器监听器，用于获取服务器信息，建议不要修改</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>player-idle-timeout=0</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#当进入AFK模式,在规定时间内T出服务器,设置成0为不T出服务器</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>difficulty=easy</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置游戏的难度（peaceful(0)=和平，easy(1)=简单，normal(2)=普通，hard(3)=困难）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>broadcast-rcon-to-ops=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#*允许远程连接控制台给op发送信息?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-monsters=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否生成怪物</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>op-permission-level=4</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设定OP的权限等级</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#1 - OP可以无视重生点保护</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#2 - OP可以使用 /clear、/gamemode、/tp 等等命令，可编辑命令方块</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#3 - OP可以使用 /ban、/deop、/kick 以及 /op 命令</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#4 - OP可以使用 /stop 命令</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>pvp=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否可以PVP</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>snooper-enabled=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#一旦启用，将允许服务端定期发送统计数据到http://snoop.minecraft.net 7.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-type=default</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#确定地图所生成的类型</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#DEFAULT - 标准世界</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#FLAT - 超平坦世界</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#LARGEBIOMES - 预设世界，但所有生态系都更大（仅快照12w19a，或正式版1.3之后可用）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#AMPLIFIED - 预设世界，但世界生成高度提高（仅快照13w36a，或正式版1.7.2之后可用）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#CUSTOMIZED - 自快照14w21b以来，服务器也支持自定义地形。使用方法是在generator-settings贴上代码`</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>hardcore=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#极限模式（启用后，玩家死后会被服务器封禁）。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-command-block=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否启用命令方块</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>network-compression-threshold=256</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#默认会允许n-1字节的数据包正常发送, 如果数据包为 n 字节或更大时会进行压缩。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>所以，更低的数值会使得更多的数据包被压缩，但是如果被压缩的数据包字节太小将会得不偿失。</span></span>
+<span class="line"><span>#-1 - 永久禁用数据包压缩</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#0 - 压缩全部数据包</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#(建议在64-1500)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-players=20</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#最大玩家数</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#在ops.ym中设置你要突破人数限制的OP下的bypassesPlayerLimit选项为true即可（默认值为false）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#这意味着OP不需要在服务器人满时等待玩家离开再加入，</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-world-size=29999984</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置世界边界的最大半径值，单位为方块。通过成功执行的命令能把世界边界设置得更大，</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#但不会超过这里设置的最大方块限制。如果设置的 max-world-size 超过默认值的大小，那将不会起任何效果。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#例如：</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置 max-world-size 为 1000 将会有 2000x2000 的地图边界。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置 max-world-size 为 4000 将会有 8000x8000 的地图边界。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#自定义世界边界指令/worldborder在1.8加入</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>resource-pack-sha1=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#资源包的SHA-1值，必须为小写十六进制</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function-permission-level=2</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#用于控制函数拥有的权限等级。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>rcon.port=25575</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置远程访问的端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>server-port=25565</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置服务器的IPv4端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>server-ip=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#将服务器与一个特定IP绑定。建议留空</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#留空，或是填入你想让服务器绑定的域名。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-npcs=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#决定是否生成村民</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>allow-flight=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#允许玩家在安装添加飞行功能的mod前提下在生存模式下飞行。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-name=world</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#主世界名称</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>view-distance=10</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置服务端传送给客户端的区块量 (范围3-15)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#减小此数值可有效缓解卡顿</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>resource-pack=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#可输入指向一个资源包的URI。玩家可选择是否使用该资源包</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-animals=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#动物是否可以生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>white-list=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#服务器的白名单，OP无须加入白名单</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>rcon.password=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#远程访问密码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>generate-structures=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#定义是否在生成世界时生成结构（如村庄）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>online-mode=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#线上模式是否开启 (即正版模式)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-build-height=256</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家在游戏中能够建造的最大高度</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-seed=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#世界种子</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>prevent-proxy-connections=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#如果开启服务器发送的和Mojang的验证服务器的ISP/AS不一样将会被踢出</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#开启后禁止使用VPN(虚拟专用网络或代理)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>use-native-transport=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否使用针对Linux平台的数据包收发优化，此选项仅会在Linux平台下生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>motd=A Minecraft Server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家客户端的多人游戏服务器列表中显示的服务器信息，显示于名称下方。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#中文需转码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#(部分服务端不需要转码也可以直接使用)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#彩色符号不是&amp;而是转码后的§ \u00A7 (同上)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-rcon=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否允许远程访问服务器控制台。</span></span></code></pre><button class="collapse"></button></div><h4 id="基础指令" tabindex="-1">基础指令 <a class="header-anchor" href="#基础指令" aria-label="Permalink to &quot;基础指令&quot;">​</a></h4><p><strong>op 玩家ID - 给予玩家管理员</strong></p><p><strong>stop - 关闭服务器</strong></p><h3 id="如何使用域名连接" tabindex="-1">如何使用域名连接？ <a class="header-anchor" href="#如何使用域名连接" aria-label="Permalink to &quot;如何使用域名连接？&quot;">​</a></h3><p>首先你得注册一个域名，雨云也有注册域名的服务，当然你其他方法也没问题，首先在雨云添加实名模板正常注册就行，不在重复域名注册（一般来说接触不到）</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tzhzr8.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p><code>_minecraft._tcp.mc</code> 最后面的MC就是最前，这里是mc，那么就是mc.你的域名</p><p><code>5 0 25565 154.44.8.83.</code> 中<code>154.44.8.83</code> 是服务器IP，如果你是独立公网直接填写即可，25565则是端口，如果是NAT，拿雨云举例子就是这样输入：<code>5 0 外网端口 x.rainplay.cn</code> 其中，x.rainplay.cn就是雨云开放的NAT端口域名，看你服务器给的是什么，有的是h.rainplay.cn什么什么的</p><p>然后记录类型选择SRV，保存确认解析即可，600TTL则是等待10分种DNS刷新</p><blockquote><p>这里我的域名是notlifemc.top，那么就是连接是<code>mc.notlifemc.top</code></p></blockquote><h3 id="插件篇" tabindex="-1">插件篇 <a class="header-anchor" href="#插件篇" aria-label="Permalink to &quot;插件篇&quot;">​</a></h3><p>上面已经详细说明了如何开启服务器，那么就简单说明一下关于插件方面的一些知识</p><blockquote><p>需要服务器核心支持添加插件</p></blockquote><h4 id="插件文件夹" tabindex="-1">插件文件夹 <a class="header-anchor" href="#插件文件夹" aria-label="Permalink to &quot;插件文件夹&quot;">​</a></h4><p>首先在根目录找到<code>plugins</code> 文件夹，打开，这里就是放插件的地方，我们尝试丢一个插件jar文件进去，这里找了一个清理掉落物的插件</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tzo96s.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后回到启动脚本，这时候发现他加载插件了</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/tzr0v4.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>再输入stop指令关闭，这时候就可以发现他多了一个对应文件名字的文件夹(没有说明插件不能加载或者错误插件)</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u01qfv.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>打开它就可以找到一个<code>config.yml</code> 的文件，依旧右键n++打开</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u03o2w.png" alt="|566pxx198px" loading="lazy" decoding="async" class="lazy"></figure><p>这时候就可以进行插件配置了</p><blockquote><p>也有的插件免配置所以说不生成文件夹，看你的插件的配置手册如何去进一步配置，大差不差都是<code>config.yml</code> 文件夹，也有插件是需要配置其他文件</p></blockquote><p>例如语言配置文件<code>lang.yml</code>：</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u05rsw.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h3 id="模组篇" tabindex="-1">模组篇 <a class="header-anchor" href="#模组篇" aria-label="Permalink to &quot;模组篇&quot;">​</a></h3><p>模组就是MOD，在服务器根目录找到<code>mods</code>文件夹，安装正常给客户端加mod即可；</p><blockquote><p>需要服务器核心支持添加MOD，或者是自行给核心加Forge（新手不推荐）</p></blockquote><p>但是不是说什么mod都要客户端加了服务器也加，比如一些辅助和视觉类的mod服务器则不能加，轻则不加载，重则崩服，若是中文百科下载的模组则一般都有标注</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u08254.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><blockquote><p>MOD和插件一起加叫做混合服，混合服务器多少都存在bug比如说启动有一堆红字，但是如果不影响正常服务器运作，没有特殊需求可以直接忽视即可！</p></blockquote><h2 id="基岩篇" tabindex="-1">基岩篇 <a class="header-anchor" href="#基岩篇" aria-label="Permalink to &quot;基岩篇&quot;">​</a></h2><p>Java和基岩不同，基岩分为电脑端和手机端，是可以做到手机和电脑玩家一起游玩，只要版本号相同</p><blockquote><p>纠正一个错误，很多人认为Java是电脑版而基岩是手机版，其实上不是</p></blockquote><h3 id="nukkitx核心" tabindex="-1">NukkitX核心 <a class="header-anchor" href="#nukkitx核心" aria-label="Permalink to &quot;NukkitX核心&quot;">​</a></h3><p>NukkitX核心的架构就十分像Java版本服务器文件架构，都是plugins和world文件夹，所以说开服方法、加插件都基本一致</p><h3 id="bedrock-server核心【原版】" tabindex="-1">Bedrock Server核心【原版】 <a class="header-anchor" href="#bedrock-server核心【原版】" aria-label="Permalink to &quot;Bedrock Server核心【原版】&quot;">​</a></h3><p><a href="https://www.minebbs.com/bds/" target="_blank" rel="noreferrer">https://www.minebbs.com/bds/</a></p><p>这里前往云盘下载整合好的服务端</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u0c0bl.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><blockquote><p>也丢后面的云盘链接中了<img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u0mfi9.png" alt="|50%xauto"></p></blockquote><p>解压到服务器，智能解压</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u0qi83.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>点击<code>bedrock_server.exe</code> 文件即可完成开服，基岩服务器默认是19132端口</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u0sfr0.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>NAT就开放一下外网端口，然后输入IP（雨云NAT是域名）+外网端口即可，如果是独立IP则是IP正常输入你的IP，端口客户端默认帮你填写19132直接连接</p><h3 id="liteloaderbds核心【插件】" tabindex="-1">LiteLoaderBDS核心【插件】 <a class="header-anchor" href="#liteloaderbds核心【插件】" aria-label="Permalink to &quot;LiteLoaderBDS核心【插件】&quot;">​</a></h3><p><a href="https://github.com/LiteLDev/LiteLoaderBDS/releases" target="_blank" rel="noreferrer">https://github.com/LiteLDev/LiteLoaderBDS/releases</a></p><p>记得安一下VC库，不然乱码</p><p><a href="https://ipv4wp.axzzz.top:9503/s/AEJFw" target="_blank" rel="noreferrer">VC_redist.x64.exe - Axzzz云盘</a></p><p>BDS性能要求（需要根据服务器情况加以判断，此处仅供参考）： 1-2人（指的是同时在线人数）：CPU主频2.3Ghz，内存2-4GB 3-5人：CPU主频2.5Ghz，内存4-6GB 6-10人：CPU主频3Ghz（例如E5-2667v2），内存4-8GB</p><blockquote><p>当初给我朋友开BDS服务器TPS就一直卡死，可能Windows运行不太好网上的人不用Windows开的可以尝试其他办法</p></blockquote><p>然后前往这个项目，下载该版本的 <code>levilamina-windows-x64.zip</code> 文件</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u0uiod.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后分别下载最新版本的 PeEditor.exe 和 PreLoader.dll 文件</p><p><a href="https://github.com/LiteLDev/PeEditor/releases" target="_blank" rel="noreferrer">https://github.com/LiteLDev/PeEditor/releases</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u1cmb4.png" alt="|566pxx179px" loading="lazy" decoding="async" class="lazy"></figure><p><a href="https://github.com/LiteLDev/PreLoader/releases" target="_blank" rel="noreferrer">https://github.com/LiteLDev/PreLoader/releases</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u1jlf7.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>三项云盘高速下载：<a href="https://ipv4wp.axzzz.top:9503/s/nAOIJ?path=%2F" target="_blank" rel="noreferrer">我的世界BDS扩展插件 - Axzzz云盘</a></p><h4 id="安装步骤" tabindex="-1"><strong>安装步骤</strong> <a class="header-anchor" href="#安装步骤" aria-label="Permalink to &quot;**安装步骤**&quot;">​</a></h4><p><strong>复制粘贴到服务器中，先记得安装VC库安装失败则可能安装过了</strong></p><p><strong><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u1ud2m.png" alt="|100%x100%"></strong></p><h5 id="_1-解压-bds-文件" tabindex="-1"><strong>1. 解压 BDS 文件</strong> <a class="header-anchor" href="#_1-解压-bds-文件" aria-label="Permalink to &quot;**1. 解压 BDS 文件**&quot;">​</a></h5><ul><li>将你在第二步中下载的 <code>bedrock-server-&lt;version&gt;.zip</code> 解压到一个新的、空的文件夹中。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u1wjtf.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h5 id="_2-移动-peeditor-和-preloader" tabindex="-1"><strong>2. 移动 PEEDITOR 和 PRELOADER</strong> <a class="header-anchor" href="#_2-移动-peeditor-和-preloader" aria-label="Permalink to &quot;**2. 移动 PEEDITOR 和 PRELOADER**&quot;">​</a></h5><ul><li>把 <code>PeEditor.exe</code> 和 <code>PreLoader.dll</code> 移到解压后的 BDS 文件夹中。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u1yjuo.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><ul><li>确保这些文件与 <code>bedrock_server.exe</code> 在同一目录下。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u20rch.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h5 id="_3-添加-levilamina-文件" tabindex="-1"><strong>3. 添加 LEVILAMINA 文件</strong> <a class="header-anchor" href="#_3-添加-levilamina-文件" aria-label="Permalink to &quot;**3. 添加 LEVILAMINA 文件**&quot;">​</a></h5><ul><li>解压你在第一步中下载的 <code>levilamina-windows-x64.zip</code>。</li><li>从中提取 <code>bin/LeviLamina.dll</code> 和 <code>bin/LeviLamina.pdb</code> 文件。</li><li>将这些文件也移动到 BDS 文件夹中，与 <code>bedrock_server.exe</code> 放在同一目录下。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u22la4.png" alt="|566pxx170px" loading="lazy" decoding="async" class="lazy"></figure><h5 id="_4-运行-peeditor" tabindex="-1"><strong>4. 运行 PEEDITOR</strong> <a class="header-anchor" href="#_4-运行-peeditor" aria-label="Permalink to &quot;**4. 运行 PEEDITOR**&quot;">​</a></h5><ul><li>双击 <code>PeEditor.exe</code> 并等待其执行完毕。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u2enbn.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><ul><li>执行完毕后，应该在文件夹中看到一个新的 <code>bedrock_server_mod.exe</code> 文件。</li></ul><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u2kf3s.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><ul><li>原来的 <code>bedrock_server.exe</code> 将被重命名为 <code>bedrock_server.exe.bak</code>。</li></ul><p>完成以上步骤后，LeviLamina 就安装好了。你可以通过双击 <code>bedrock_server_mod.exe</code> 来启动服务端。</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u2mpq9.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u2pj83.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><blockquote><p>behavior_packs&amp;resource_packs 服务器行为包/资源包文件夹，一般不使用</p><p>definitions 服务器核心文件夹，若非必要勿动</p><p>development_xxx_packs 用于加载一些development下加载的资源包</p><p>logs log文件，包括崩服数据文件</p><p>worlds 世界文件夹</p></blockquote><p>然后你要什么插件就下载什么插件，插件都有使用教程</p><p>或者是懒人包：</p><p><a href="https://www.123pan.com/s/ehVFjv-2oGKA.html" target="_blank" rel="noreferrer">https://www.123pan.com/s/ehVFjv-2oGKA.html</a></p><h2 id="面板开服" tabindex="-1">面板开服 <a class="header-anchor" href="#面板开服" aria-label="Permalink to &quot;面板开服&quot;">​</a></h2><p>前往mcsmanager的官网，找到压缩包下载zip压缩包，复制到服务器上</p><p><a href="https://docs.mcsmanager.com/zh_cn/#windows-%E5%AE%89%E8%A3%85" target="_blank" rel="noreferrer">https://docs.mcsmanager.com/zh_cn/#windows-安装</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u395ir.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u3lb3c.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>双击启动，然后点更多信息继续仍旧运行</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u3nd5l.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后就会自动弹出两个窗口，自动部署后会自己打开一个网页，这就是面板</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u4fasc.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>点击首次使用，它会一步步的教你如何去部署</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u4i1r0.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u4t9ae.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><h1 id="linux篇-部署mc服" tabindex="-1">Linux篇-部署MC服 <a class="header-anchor" href="#linux篇-部署mc服" aria-label="Permalink to &quot;Linux篇-部署MC服&quot;">​</a></h1><p>这里依旧使用mcsmanager的提供的面板管理</p><h2 id="一键部署面板" tabindex="-1">一键部署面板 <a class="header-anchor" href="#一键部署面板" aria-label="Permalink to &quot;一键部署面板&quot;">​</a></h2><p>SSH链接，软件上面推荐<a href="https://www.xterminal.cn/" target="_blank" rel="noreferrer">https://www.xterminal.cn/</a></p><p>然后开放22端口（独立公网无需，直接填写IP然后输入密码连接）</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u4w6mz.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后创建后点击连接即可完成连接服务器</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u4yxr8.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u50i95.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>输入指令进行一键自动安装，耐心等待安装完成</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>sudo su -c "wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash"</span></span></code></pre><button class="collapse"></button></div><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u52dst.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>重新出现#号就说明安装成功，同时终端也反馈出端口面板信息</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5dsvf.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>回到控制台，开放23333端口（独立IP则不需要，直接访问网站：IP:23333）</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5gdax.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>完成基础的配置，创建管理员，完成！</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5ki0g.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>这是相关指令：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span># 先启动面板守护进程。</span></span>
+<span class="line"><span># 这是用于进程控制，终端管理的服务进程。</span></span>
+<span class="line"><span>systemctl start mcsm-daemon.service</span></span>
+<span class="line"><span># 再启动面板 Web 服务。</span></span>
+<span class="line"><span># 这是用来实现支持网页访问和用户管理的服务。</span></span>
+<span class="line"><span>systemctl start mcsm-web.service</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 重启面板命令</span></span>
+<span class="line"><span>systemctl restart mcsm-daemon.service</span></span>
+<span class="line"><span>systemctl restart mcsm-web.service</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 停止面板命令</span></span>
+<span class="line"><span>systemctl stop mcsm-web.service</span></span>
+<span class="line"><span>systemctl stop mcsm-daemon.service</span></span></code></pre><button class="collapse"></button></div><h2 id="java实例服务器例子-一键部署" tabindex="-1">Java实例服务器例子-一键部署 <a class="header-anchor" href="#java实例服务器例子-一键部署" aria-label="Permalink to &quot;Java实例服务器例子-一键部署&quot;">​</a></h2><p>这里点击首次使用</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5mbur.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>点击你要开的服务器类型，这里选择Java</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5o7ak.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后点击快速部署</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u5q19g.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>选择你要开的，这里选择原版的服务器 <img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u60wkz.png" alt="|100%x100%"></p><p>出现初始化失败节点不存在就刷新然后点一下看看节点有没有然后重新下载</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u64jhp.png" alt="|561pxx161px" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6axl3.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>如果出现无法连接节点就是说端口没开放，去开放节点然后修改节点配置即可</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6lebx.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6n8bz.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6omd1.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6sywq.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>如果启动提示错误，这是因为你没安装Java环境，这里简单部署下Java环境就行</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u6upqa.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7bkf8.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7dqxa.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>和前面的Windows方案一样，改成你的Java路径就行了</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>@ECHO OFF</span></span>
+<span class="line"><span>"C:\Program Files\Java\dragonwell_8\bin\java.exe" -Xmx4G -Xms4G -jar server.jar</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>%0</span></span></code></pre><button class="collapse"></button></div><blockquote><p>这只是例子，可以通过xterminalSSH上传</p></blockquote><p>找到你要的JAVA版本</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7g2ta.png" alt="|566pxx117px" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7u1no.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p><a href="https://www.azul.com/downloads/" target="_blank" rel="noreferrer">https://www.azul.com/downloads/</a></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7wvno.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后输入指令<code>yum install -y unzip</code>安装uzip再进行解压（Centos系统）</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u7zo74.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后找到这个目录，安装我这里目录就是：<code>/root/unzip_202406291904_zulu22/zulu22.30.13-ca-jdk22.0.1-linux_x64/bin/java</code></p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u81sse.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>修改后，完成启动</p><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u8cs3o.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u8emml.png" alt="|562pxx167px" loading="lazy" decoding="async" class="lazy"></figure><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u8g54y.png" alt="|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><p>然后安装之前流程一样，控制面板开放25565端口（如果你没调配置文件的话）</p><p>再放一次MC配置说明</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span>#设置监听服务器的端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>generator-settings=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#用于自定义超平坦世界的生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>force-gamemode=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家加入服务器时强制变成默认游戏模式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>allow-nether=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否开启地狱世界(关闭后删除将不会生成地狱世界)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enforce-whitelist=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#在服务器上强制执行白名单。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>gamemode=survival</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置玩家的游戏模式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>broadcast-console-to-ops=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#*给op发送控制台信息?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-query=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否开启GameSpy4协议服务器监听器，用于获取服务器信息，建议不要修改</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>player-idle-timeout=0</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#当进入AFK模式,在规定时间内T出服务器,设置成0为不T出服务器</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>difficulty=easy</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置游戏的难度（peaceful(0)=和平，easy(1)=简单，normal(2)=普通，hard(3)=困难）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>broadcast-rcon-to-ops=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#*允许远程连接控制台给op发送信息?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-monsters=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否生成怪物</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>op-permission-level=4</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设定OP的权限等级</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#1 - OP可以无视重生点保护</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#2 - OP可以使用 /clear、/gamemode、/tp 等等命令，可编辑命令方块</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#3 - OP可以使用 /ban、/deop、/kick 以及 /op 命令</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#4 - OP可以使用 /stop 命令</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>pvp=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否可以PVP</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>snooper-enabled=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#一旦启用，将允许服务端定期发送统计数据到http://snoop.minecraft.net 7.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-type=default</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#确定地图所生成的类型</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#DEFAULT - 标准世界</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#FLAT - 超平坦世界</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#LARGEBIOMES - 预设世界，但所有生态系都更大（仅快照12w19a，或正式版1.3之后可用）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#AMPLIFIED - 预设世界，但世界生成高度提高（仅快照13w36a，或正式版1.7.2之后可用）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#CUSTOMIZED - 自快照14w21b以来，服务器也支持自定义地形。使用方法是在generator-settings贴上代码`</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>hardcore=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#极限模式（启用后，玩家死后会被服务器封禁）。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-command-block=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否启用命令方块</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>network-compression-threshold=256</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#默认会允许n-1字节的数据包正常发送, 如果数据包为 n 字节或更大时会进行压缩。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>所以，更低的数值会使得更多的数据包被压缩，但是如果被压缩的数据包字节太小将会得不偿失。</span></span>
+<span class="line"><span>#-1 - 永久禁用数据包压缩</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#0 - 压缩全部数据包</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#(建议在64-1500)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-players=20</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#最大玩家数</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#在ops.ym中设置你要突破人数限制的OP下的bypassesPlayerLimit选项为true即可（默认值为false）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#这意味着OP不需要在服务器人满时等待玩家离开再加入，</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-world-size=29999984</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置世界边界的最大半径值，单位为方块。通过成功执行的命令能把世界边界设置得更大，</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#但不会超过这里设置的最大方块限制。如果设置的 max-world-size 超过默认值的大小，那将不会起任何效果。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#例如：</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置 max-world-size 为 1000 将会有 2000x2000 的地图边界。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置 max-world-size 为 4000 将会有 8000x8000 的地图边界。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#自定义世界边界指令/worldborder在1.8加入</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>resource-pack-sha1=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#资源包的SHA-1值，必须为小写十六进制</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function-permission-level=2</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#用于控制函数拥有的权限等级。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>rcon.port=25575</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置远程访问的端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>server-port=25565</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置服务器的IPv4端口号</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>server-ip=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#将服务器与一个特定IP绑定。建议留空</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#留空，或是填入你想让服务器绑定的域名。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-npcs=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#决定是否生成村民</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>allow-flight=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#允许玩家在安装添加飞行功能的mod前提下在生存模式下飞行。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-name=world</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#主世界名称</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>view-distance=10</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#设置服务端传送给客户端的区块量 (范围3-15)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#减小此数值可有效缓解卡顿</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>resource-pack=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#可输入指向一个资源包的URI。玩家可选择是否使用该资源包</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>spawn-animals=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#动物是否可以生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>white-list=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#服务器的白名单，OP无须加入白名单</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>rcon.password=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#远程访问密码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>generate-structures=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#定义是否在生成世界时生成结构（如村庄）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>online-mode=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#线上模式是否开启 (即正版模式)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>max-build-height=256</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家在游戏中能够建造的最大高度</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>level-seed=</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#世界种子</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>prevent-proxy-connections=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#如果开启服务器发送的和Mojang的验证服务器的ISP/AS不一样将会被踢出</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#开启后禁止使用VPN(虚拟专用网络或代理)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>use-native-transport=true</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否使用针对Linux平台的数据包收发优化，此选项仅会在Linux平台下生成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>motd=A Minecraft Server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#玩家客户端的多人游戏服务器列表中显示的服务器信息，显示于名称下方。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#中文需转码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#(部分服务端不需要转码也可以直接使用)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#彩色符号不是&amp;而是转码后的§ \u00A7 (同上)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>enable-rcon=false</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#是否允许远程访问服务器控制台。</span></span></code></pre><button class="collapse"></button></div><blockquote><p>本人对于这个面板以及对Linux部署服务器并不熟悉，有什么缺点还请指点</p></blockquote><h1 id="末尾" tabindex="-1">末尾 <a class="header-anchor" href="#末尾" aria-label="Permalink to &quot;末尾&quot;">​</a></h1><p>就先简单写到这里，如果需要补充或者请求可以留言给我，我会发布的平台全部进行更新文章，持续更新，同时有纰漏也欢迎留言反馈</p><blockquote><p>后面也会抽时间来完善一下文章，本文还是有很多遗漏的细节没完善清楚，废话文学只是为了萌新懂</p></blockquote><figure><img src="https://imgse.koxiuqiu.cn/i/2024/07/07/u8lkkp.png" alt="看完一定要收藏，邀顾客好评的话术_评价_xxxx_表情|100%x100%" loading="lazy" decoding="async" class="lazy"></figure><!--]--><!--[--><!--]--><!--]--><!----><!----></article><!--]--></main><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{}}'</script><script type="application/ld+json" data-hid="3437552">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.koxiuqiu.cc/#identity","@type":"Person","name":"柯朽丘-klcdm","url":"https://blog.koxiuqiu.cc/","image":{"@id":"https://blog.koxiuqiu.cc/#/schema/image/1dd970d"},"sameAs":["/atom.xml","https://qm.qq.com/q/25xYUNl3EI","https://github.com/lkcdm","mailto:gemiidozenz@hotmail.com","https://www.travellings.cn/go.html"]},{"@id":"https://blog.koxiuqiu.cc/#website","@type":"WebSite","dateModified":"2024-06-29","datePublished":"2024-06-29","inLanguage":"zh-CN","name":"MC服务器开服全解-特保姆","url":"https://blog.koxiuqiu.cc/","publisher":{"@id":"https://blog.koxiuqiu.cc/#identity"}},{"@id":"https://blog.koxiuqiu.cc/#webpage","@type":"WebPage","description":"一定会和喜欢的人在夏日夜晚牵手慢步","name":"MC服务器开服全解-特保姆","url":"https://blog.koxiuqiu.cc/","about":{"@id":"https://blog.koxiuqiu.cc/#identity"},"isPartOf":{"@id":"https://blog.koxiuqiu.cc/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.koxiuqiu.cc/"]}]},{"@id":"https://blog.koxiuqiu.cc/#/schema/image/1dd970d","@type":"ImageObject","contentUrl":"https://blog.koxiuqiu.cc/img/avatar/xiaokeb.png","inLanguage":"zh-CN","url":"https://blog.koxiuqiu.cc/img/avatar/xiaokeb.png"}]}</script></body></html>

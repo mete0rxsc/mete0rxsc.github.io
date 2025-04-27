@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.xscnas.top/</id>
+    <title>-Mete0r's Blog | 壹人小站-</title>
+    <updated>2025-04-27T13:59:36.216Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Mete0r</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://www.xscnas.top/"/>
+    <link rel="self" href="https://www.xscnas.top/atom.xml"/>
+    <subtitle>Mete0r-欢迎来到我的虚拟小世界</subtitle>
+    <logo>https://imgse.koxiuqiu.cc/imgse/u/23/2025/04/25/680b89336a184.webp</logo>
+    <icon>https://www.xscnas.top/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © Mete0r</rights>
+    <entry>
+        <title type="html"><![CDATA[网易云VIP歌曲解析]]></title>
+        <id>https://www.xscnas.top/posts/p1820250427</id>
+        <link href="https://www.xscnas.top/posts/p1820250427"/>
+        <updated>2025-04-27T21:36:36.000Z</updated>
+        <content type="html"><![CDATA[<h2>网易云VIP歌曲解析v1.0 By.Mete0r</h2>
+<h4>[GitHub仓库地址:<a href="https://github.com/mete0rxsc/NetEase-Cloud-VIP-Song-An">https://github.com/mete0rxsc/NetEase-Cloud-VIP-Song-An</a></h4>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1820250427" target="_blank">https://www.xscnas.top/posts/p1820250427</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-27T21:36:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lullaby]]></title>
+        <id>https://www.xscnas.top/posts/p1220250406</id>
+        <link href="https://www.xscnas.top/posts/p1220250406"/>
+        <updated>2025-04-06T23:47:08.000Z</updated>
+        <content type="html"><![CDATA[<audio controls>
+<source src="https://www.xscnas.top/audio/Enzalla - Lullaby.wav" type="audio/mpeg">
+<source src="https://<br/><p>访问 <a href="https://www.xscnas.top/posts/p1220250406" target="_blank">https://www.xscnas.top/posts/p1220250406</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-27T13:58:58.175Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[好用的开源项目]]></title>
+        <id>https://www.xscnas.top/posts/p1720250426Links</id>
+        <link href="https://www.xscnas.top/posts/p1720250426Links"/>
+        <updated>2025-04-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<h3>免责声明：这些软件基本上都来自互联网</h3>
+<h3><a href="https://space.bilibili.com/67079745">Bilibili UP主：玄离199</a>视频分享软件整合</h3>
+</blockquote>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1720250426Links" target="_blank">https://www.xscnas.top/posts/p1720250426Links</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-26T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我爱科幻]]></title>
+        <id>https://www.xscnas.top/posts/p1620250424</id>
+        <link href="https://www.xscnas.top/posts/p1620250424"/>
+        <updated>2025-04-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<blockquote>
+<h2>前言</h2>
+</blockquote>
+<p>写这篇文章是因为我基本上把刘慈欣已经装订成书本的长/短篇小说都看了一遍，就想着发表一下自己的看法<br>
+Tips:有部分赏析来自互联网（我文笔太差了，见谅</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1620250424" target="_blank">https://www.xscnas.top/posts/p1620250424</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-24T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(五)]]></title>
+        <id>https://www.xscnas.top/posts/p1520250423</id>
+        <link href="https://www.xscnas.top/posts/p1520250423"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>&lt;meting-js<br>
+server=&quot;netease&quot;<br>
+type=&quot;playlist&quot;<br>
+id=&quot;8710317469&quot;<br>
+mode=&quot;circulation&quot;</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1520250423" target="_blank">https://www.xscnas.top/posts/p1520250423</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(四)]]></title>
+        <id>https://www.xscnas.top/posts/p1420250415</id>
+        <link href="https://www.xscnas.top/posts/p1420250415"/>
+        <updated>2025-04-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>许久不见各位<br>
+报个平安<br>
+最近安然无恙</p>
+<h3>最近的项目</h3>
+<p>最近开发了几个适配这个Yun主题的Vue插件</p>
+<p>[点我查看valaxy-yun-exte</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1420250415" target="_blank">https://www.xscnas.top/posts/p1420250415</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-15T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valaxy Yun External Link]]></title>
+        <id>https://www.xscnas.top/posts/p1320250414</id>
+        <link href="https://www.xscnas.top/posts/p1320250414"/>
+        <updated>2025-04-14T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<h2>视频教程</h2>
+<iframe src="https://www.xscnas.top//player.bilibili.com/player.html?114336626379312&bvid=BV1a2o7Y9E<br/><p>访问 <a href="https://www.xscnas.top/posts/p1320250414" target="_blank">https://www.xscnas.top/posts/p1320250414</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用Valaxy搭建自己的博客]]></title>
+        <id>https://www.xscnas.top/posts/p1120250403</id>
+        <link href="https://www.xscnas.top/posts/p1120250403"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<blockquote>
+<h2>视频教程：</h2>
+</blockquote>
+<iframe src="https://www.xscnas.top//player.bilibili.com/player.html?114274684897948&bvid=BV1FiZUYdE<br/><p>访问 <a href="https://www.xscnas.top/posts/p1120250403" target="_blank">https://www.xscnas.top/posts/p1120250403</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《三月雪笺》]]></title>
+        <id>https://www.xscnas.top/posts/p10pm220250329</id>
+        <link href="https://www.xscnas.top/posts/p10pm220250329"/>
+        <updated>2025-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>《三月雪笺》</p>
+<p>银绦漫舞锁春申，<br>
+玉盏噙香待故人。<br>
+松影量风拂旧雪，<br>
+冰棱垂泪绣新痕。<br>
+:::</p>
+<p>::: en</p>
+<p>Chinese poet</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p10pm220250329" target="_blank">https://www.xscnas.top/posts/p10pm220250329</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《茧》]]></title>
+        <id>https://www.xscnas.top/posts/p8pm120250329</id>
+        <link href="https://www.xscnas.top/posts/p8pm120250329"/>
+        <updated>2025-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>《茧》</p>
+<p>信纸在季风里打滑时<br>
+蝉声正在缝合<br>
+年轮的褶皱</p>
+<p>我等你舌尖的盐<br>
+在暮色结晶<br>
+等二十四封信<br>
+被潮声蛀空<br>
+月光正拆解</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p8pm120250329" target="_blank">https://www.xscnas.top/posts/p8pm120250329</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025三月小结]]></title>
+        <id>https://www.xscnas.top/posts/p9m120250329</id>
+        <link href="https://www.xscnas.top/posts/p9m120250329"/>
+        <updated>2025-03-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<hr>
+<h1>2025年3月29日 春雪记事</h1>
+<p>三月的最后一周，空气里依然裹着冬天的尾巴。教室窗台上的冰凌悄悄生长，折射着北方少年眼中的奇妙三月。<br>
+这本该是柳枝</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p9m120250329" target="_blank">https://www.xscnas.top/posts/p9m120250329</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(三)]]></title>
+        <id>https://www.xscnas.top/posts/p720250327</id>
+        <link href="https://www.xscnas.top/posts/p720250327"/>
+        <updated>2025-03-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>推荐搭配此音乐食用，风味更佳<br>
+&lt;meting-js<br>
+server=&quot;netease&quot;<br>
+type=&quot;song&quot;<br>
+id=&quot;1974443814&quot;<br>
+mode=&quot;</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p720250327" target="_blank">https://www.xscnas.top/posts/p720250327</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-27T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[（二）]]></title>
+        <id>https://www.xscnas.top/posts/p620250325</id>
+        <link href="https://www.xscnas.top/posts/p620250325"/>
+        <updated>2025-03-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>推荐搭配此音乐食用，风味更佳<br>
+&lt;meting-js<br>
+server=&quot;netease&quot;<br>
+type=&quot;song&quot;<br>
+id=&quot;1992712131&quot;<br>
+mode=&quot;</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p620250325" target="_blank">https://www.xscnas.top/posts/p620250325</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-25T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[（一）]]></title>
+        <id>https://www.xscnas.top/posts/p520250322</id>
+        <link href="https://www.xscnas.top/posts/p520250322"/>
+        <updated>2025-03-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<h2>高二下学期开学一个月了</h2>
+<p>一转眼，高二下学习已经开学一个月了，我想象中的那种繁忙没有出现，只是学习进度在加快<br>
+我甚至还有闲心上课摸鱼（bushi<br>
+其实我打小对学</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p520250322" target="_blank">https://www.xscnas.top/posts/p520250322</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-03-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生日快乐]]></title>
+        <id>https://www.xscnas.top/posts/BrithDay</id>
+        <link href="https://www.xscnas.top/posts/BrithDay"/>
+        <updated>2025-01-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>今天是2025/01/17<br>
+我！过！生！日！了！<br>
+在这里我自己祝我生日快乐<br>
+也祝和我同日生日的所有人生日快乐！~</p>
+<p>（博客的网站依旧在建设中</p>
+<p>:::</p>
+<p>:</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/BrithDay" target="_blank">https://www.xscnas.top/posts/BrithDay</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-01-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我对于个人博客的看法]]></title>
+        <id>https://www.xscnas.top/posts/p4</id>
+        <link href="https://www.xscnas.top/posts/p4"/>
+        <updated>2024-12-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<h2>浅谈我对个人博客的看法</h2>
+<h3>宇宙级免责声明：我说的内容仅表达我自己的看法，我尊重任何人的劳动成果，尊重任何人的选择</h3>
+<p>我认为一个人的个人博客，最重要的是记录自己的</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p4" target="_blank">https://www.xscnas.top/posts/p4</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-12-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客竣工!]]></title>
+        <id>https://www.xscnas.top/posts/p3</id>
+        <link href="https://www.xscnas.top/posts/p3"/>
+        <updated>2024-06-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<h2>我的博客基本竣工啦！</h2>
+<p>北京时间23点04分，我刚刚上完外教课，有点累，但是还是掩饰不住我内心的喜悦<br>
+虽然最近一些烦心的事情比较多，但是在这一刻终究还是开心的<br>
+最近</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p3" target="_blank">https://www.xscnas.top/posts/p3</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重大更新!我的博客全面换为Valaxy框架!]]></title>
+        <id>https://www.xscnas.top/posts/p2</id>
+        <link href="https://www.xscnas.top/posts/p2"/>
+        <updated>2024-02-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<h2>重大更新!我的博客全面换为Valaxy框架!</h2>
+<h5>Q1:原先的博客是不能访问了吗？</h5>
+<p>A1:当然不是！我在这P个超链接[点我可以直接回到原先的博客，但不会</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p2" target="_blank">https://www.xscnas.top/posts/p2</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-02-16T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些临时的想法]]></title>
+        <id>https://www.xscnas.top/posts/p1</id>
+        <link href="https://www.xscnas.top/posts/p1"/>
+        <updated>2024-01-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: zh-CN</p>
+<p>最近感觉自己的旧博客太冗杂了，准备着手换一个新的框架吧<br>
+目前看中了Valaxy框架<br>
+先把项目跑起来<br>
+剩下的东西等到我学习任务没有那么重了在搞<br>
+以后博客</p>
+<br/><p>访问 <a href="https://www.xscnas.top/posts/p1" target="_blank">https://www.xscnas.top/posts/p1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-01-18T00:00:00.000Z</published>
+    </entry>
+</feed>
