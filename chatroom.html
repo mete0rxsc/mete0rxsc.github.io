@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>聊天室</title>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="/css/chatroom-black.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background-color: var(--secondary-color);
+    }
+    #chat {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat">正在加载聊天室...</div>
+
+  <!-- 引入脚本 -->
+  <script src="/js/chatroom.js"></script>
+  <script>
+    function getURLParams() {
+      const search = window.location.search || window.location.hash.split('?')[1] || '';
+      return new URLSearchParams(search);
+    }
+
+    const params = getURLParams();
+    const chatroomName = params.get('chatroomName') || 'chat';
+    const jsonFilePath = decodeURIComponent(params.get('jsonFilePath') || '');
+    const myAvatar = decodeURIComponent(params.get('MyAvatar') || '');
+    const title = decodeURIComponent(params.get('title') || '群聊记录');
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const container = document.getElementById(chatroomName);
+      if (!container) {
+        document.body.innerHTML = `<p style="color:red; text-align:center;">找不到 ID 为 "${chatroomName}" 的容器</p>`;
+        return;
+      }
+
+      if (!jsonFilePath || !myAvatar) {
+        container.innerHTML = `<p style="color:red;">缺少必要参数：jsonFilePath 或 MyAvatar</p>`;
+        return;
+      }
+
+      chatroom.init({
+        chatroomName: chatroomName,
+        jsonFilePath: jsonFilePath,
+        MyAvatar: myAvatar,
+        title: title
+      });
+    });
+  </script>
+</body>
+</html>
