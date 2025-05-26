@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.xscnet.cn/</id>
     <title>-Mete0r's Blog | 壹人小站-</title>
-    <updated>2025-05-20T14:45:50.161Z</updated>
+    <updated>2025-05-26T15:35:55.918Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mete0r</name>
@@ -15,6 +15,27 @@
     <logo>https://www.xscnet.cn/avatar1.jpg</logo>
     <icon>https://www.xscnet.cn/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © Mete0r</rights>
+    <entry>
+        <title type="html"><![CDATA[2025五月小结:音乐节初体验]]></title>
+        <id>https://www.xscnet.cn/posts/p2320250524</id>
+        <link href="https://www.xscnet.cn/posts/p2320250524"/>
+        <updated>2025-05-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<h2>📅 五月总结</h2>
+</blockquote>
+<p>这次的经历让我心情很是愉悦呢~<br>
+<strong>2025年5月24日 -- 心情晴</strong><br>
+&lt;meting-js<br>
+server=&quot;netease&quot;<br>
+type=</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p2320250524" target="_blank">https://www.xscnet.cn/posts/p2320250524</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-26T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[彼方的她-Aliya]]></title>
         <id>https://www.xscnet.cn/posts/p2220250518</id>
