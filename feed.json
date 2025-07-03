@@ -12,6 +12,30 @@
     "items": [
         {
             "id": "",
+            "content_html": "<p>最近刷视频的时候，听到了一位新晋说唱歌手的歌曲<br>\n起初我认为和其他新人一样写的都是一些口水歌，没有什么营养<br>\n但真的当我听过这首歌的时候，我感觉是我带着有色眼镜了</p>\n<p>莫愁乡--亞細亞曠世奇才</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p2520250703\" target=\"_blank\">https://www.xscnet.cn/posts/p2520250703</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p2520250703",
+            "title": "音乐推荐:莫愁乡",
+            "date_modified": "2025-07-03T00:00:00.000Z",
+            "date_published": "2025-07-03T00:00:00.000Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p><meting-js\n\tserver=\"netease\"\n\ttype=\"song\"\n\tid=\"2163210456\"\n  mode=\"circulation\"><br>\n</meting-js></p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p2420250629\" target=\"_blank\">https://www.xscnet.cn/posts/p2420250629</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p2420250629",
+            "title": "2025六月小结:长时间的等待",
+            "date_modified": "2025-06-29T00:00:00.000Z",
+            "date_published": "2025-06-29T00:00:00.000Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<blockquote>\n<h2>📅 五月总结</h2>\n</blockquote>\n<p>这次的经历让我心情很是愉悦呢~<br>\n<strong>2025年5月24日 -- 心情晴</strong><br>\n&lt;meting-js<br>\nserver=&quot;netease&quot;<br>\ntype=</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p2320250524\" target=\"_blank\">https://www.xscnet.cn/posts/p2320250524</a> 阅读全文。</p>",
             "url": "https://www.xscnet.cn/posts/p2320250524",
             "title": "2025五月小结:音乐节初体验",
