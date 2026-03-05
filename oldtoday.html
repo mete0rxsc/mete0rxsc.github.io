@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>历史上的今天</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container {
+            background-color: #fff;
+            color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .event {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .event:last-child {
+            border-bottom: none;
+        }
+        .event strong {
+            color: #007bff;
+        }
+        /* Dark mode styles */
+        body.dark .container {
+            background-color: #333;
+            color: #fff;
+        }
+        body.dark .event strong {
+            color: #00bfff;
+        }
+        body.dark .event {
+            border-bottom: 1px solid #555;
+        }
+        /* Toggle button */
+        .toggle-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .toggle-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-button" onclick="toggleDarkMode()">切换模式</button>
+    <div class="container">
+        <h1>历史上的今天</h1>
+        <div id="events"></div>
+    </div>
+
+    <script>
+        // 检测当前页面的显示模式
+        function checkCurrentTheme() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        }
+
+        // 切换主题模式
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+            document.documentElement.classList.toggle('dark');
+            saveThemePreference();
+        }
+
+        // 保存主题偏好
+        function saveThemePreference() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        }
+
+        // 加载主题偏好
+        function loadThemePreference() {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        // 初始化主题
+        function initializeTheme() {
+            loadThemePreference();
+            checkCurrentTheme();
+        }
+
+        async function fetchHistoryData() {
+            const url = "https://api.kuleu.com/api/lsjt";
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                if (data.code === 200) {
+                    displayEvents(data.result);
+                } else {
+                    console.error("获取数据失败:", data.message);
+                }
+            } catch (error) {
+                console.error("请求失败:", error);
+            }
+        }
+
+        function displayEvents(events) {
+            const eventsDiv = document.getElementById('events');
+            events.forEach(event => {
+                const eventDiv = document.createElement('div');
+                eventDiv.className = 'event';
+                eventDiv.innerHTML = `<strong>${event.date}</strong>: ${event.title}`;
+                eventsDiv.appendChild(eventDiv);
+            });
+            // 调整 iframe 高度
+            adjustIframeHeight();
+        }
+
+        function adjustIframeHeight() {
+            const iframe = window.frameElement;
+            if (iframe) {
+                iframe.style.height = `${document.body.scrollHeight}px`;
+            }
+        }
+
+        // 初始化主题和获取数据
+        initializeTheme();
+        fetchHistoryData();
+    </script>
+</body>
+</html>
