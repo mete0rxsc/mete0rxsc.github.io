@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h2>前言</h2>\n<p>今天是周六，本该上学的，但是最近有很多学习上的事情压在身上，决定放纵一天，好好的休息一下<br>\n游戏已经玩腻了，翻看着Steam的游戏库，却不知从何下手</p>\n<h2>游戏</h2>\n<p>在以前，我</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3220260307\" target=\"_blank\">https://www.xscnet.cn/posts/p3220260307</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p3220260307",
+            "title": "近期随笔：对生活的总结和对博客主题的探索",
+            "date_modified": "2026-03-07T00:00:00.000Z",
+            "date_published": "2026-03-07T00:00:00.000Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h2>更新内容</h2>\n<p>首先感谢一下klcdm嘿嘿<br>\n每次都是直接抄他的博客主题，虽说前人栽树后人乘凉，但是还是特别感谢klcdm博客给予的灵感</p>\n<p>首先讲讲为什么换了框架把<br>\n从Valaxy切换到</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3120260303\" target=\"_blank\">https://www.xscnet.cn/posts/p3120260303</a> 阅读全文。</p>",
             "url": "https://www.xscnet.cn/posts/p3120260303",
             "title": "博客框架更新！",
@@ -65,6 +77,18 @@
             "title": "站点更新！CDN优化！腾讯EO白嫖经历",
             "date_modified": "2025-07-16T06:32:00.000Z",
             "date_published": "2025-07-16T06:32:00.000Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>今天是个勤劳的站长呢，一天更新了两篇文章嘻嘻</p>\n<h2>被迫购新的充电宝</h2>\n<p>事情的起因想必大家都不陌生了，最近关于罗马仕充电宝频繁起火的新闻真是让人看得心惊胆战<br>\n之前就听说过一些电子产品存在安</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p27202507162\" target=\"_blank\">https://www.xscnet.cn/posts/p27202507162</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p27202507162",
+            "title": "被迫购新的充电宝",
+            "date_modified": "2025-07-16T01:05:00.000Z",
+            "date_published": "2025-07-16T01:05:00.000Z",
             "author": {
                 "name": "Mete0r",
                 "url": "https://valaxy.site"
