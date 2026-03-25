@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnet.cn/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Wed, 25 Mar 2026 09:08:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2026 09:21:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -18,7 +18,7 @@
             <title><![CDATA[三月小记：春雨、体检与博客二三事]]></title>
             <link>https://www.xscnet.cn/posts/p3320260325</link>
             <guid>https://www.xscnet.cn/posts/p3320260325</guid>
-            <pubDate>Wed, 25 Mar 2026 09:07:52 GMT</pubDate>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2>前言</h2>
 <p>许久不见朋友们<br>
 不知不觉有有近一个月没发过文章了<br>
@@ -212,17 +212,6 @@ ty</p>
             <author>i@valaxy.site (Mete0r)</author>
         </item>
         <item>
-            <title><![CDATA[Lullaby]]></title>
-            <link>https://www.xscnet.cn/posts/p1220250406</link>
-            <guid>https://www.xscnet.cn/posts/p1220250406</guid>
-            <pubDate>Wed, 30 Apr 2025 14:04:42 GMT</pubDate>
-            <content:encoded><![CDATA[<audio controls>
-<source src="https://www.xscnet.cn/audio/Enzalla - Lullaby.wav" type="audio/mpeg">
-您的浏览器不支持音频元素。
-</audio<br/><p>访问 <a href="https://www.xscnet.cn/posts/p1220250406" target="_blank">https://www.xscnet.cn/posts/p1220250406</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (Mete0r)</author>
-        </item>
-        <item>
             <title><![CDATA[网易云VIP歌曲解析]]></title>
             <link>https://www.xscnet.cn/posts/p1820250427</link>
             <guid>https://www.xscnet.cn/posts/p1820250427</guid>
@@ -295,6 +284,17 @@ mode=&quot;circulation&quot;</p>
             <content:encoded><![CDATA[<p>::: zh-CN</p>
 <h2>视频教程</h2>
 <iframe src="https://www.xscnet.cn//player.bilibili.com/player.html?114336626379312&bvid=BV1a2o7Y9E<br/><p>访问 <a href="https://www.xscnet.cn/posts/p1320250414" target="_blank">https://www.xscnet.cn/posts/p1320250414</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
+        <item>
+            <title><![CDATA[Lullaby]]></title>
+            <link>https://www.xscnet.cn/posts/p1220250406</link>
+            <guid>https://www.xscnet.cn/posts/p1220250406</guid>
+            <pubDate>Sun, 06 Apr 2025 15:47:08 GMT</pubDate>
+            <content:encoded><![CDATA[<audio controls>
+<source src="https://www.xscnet.cn/audio/Enzalla - Lullaby.wav" type="audio/mpeg">
+您的浏览器不支持音频元素。
+</audio<br/><p>访问 <a href="https://www.xscnet.cn/posts/p1220250406" target="_blank">https://www.xscnet.cn/posts/p1220250406</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (Mete0r)</author>
         </item>
         <item>
