@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnet.cn/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Wed, 25 Mar 2026 09:21:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2026 06:30:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,18 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © Mete0r</copyright>
         <atom:link href="https://www.xscnet.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[博客源站IP泄露的两种主要方式与防护指南]]></title>
+            <link>https://www.xscnet.cn/posts/p3420260329</link>
+            <guid>https://www.xscnet.cn/posts/p3420260329</guid>
+            <pubDate>Sun, 29 Mar 2026 06:05:05 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>最近 <strong><a href="https://koxiuqiu.cn/">klcdm老哥</a></strong> 提醒我，提醒道我的服务器IP会因为以前的邮件推送方式泄露<br>
+我一查，果然如此<br>
+[kl的往期文章]</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p3420260329" target="_blank">https://www.xscnet.cn/posts/p3420260329</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
         <item>
             <title><![CDATA[三月小记：春雨、体检与博客二三事]]></title>
             <link>https://www.xscnet.cn/posts/p3320260325</link>
