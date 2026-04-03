@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnet.cn/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Tue, 31 Mar 2026 15:14:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 16:24:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,18 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © Mete0r</copyright>
         <atom:link href="https://www.xscnet.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[使用Hexo搭建自己的博客]]></title>
+            <link>https://www.xscnet.cn/posts/p3520260403</link>
+            <guid>https://www.xscnet.cn/posts/p3520260403</guid>
+            <pubDate>Fri, 03 Apr 2026 16:05:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>视频教程</h2>
+<h2>前言</h2>
+<p><strong>声明：此教程为新手保姆级教程，可能会有对您无用的废话，请移步至右上角菜单自行跳转需要的部分</strong></p>
+<p>写这篇教程的目的也是总结我的踩坑日记，帮助更多的新手</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p3520260403" target="_blank">https://www.xscnet.cn/posts/p3520260403</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
         <item>
             <title><![CDATA[博客源站IP泄露的两种主要方式与防护指南]]></title>
             <link>https://www.xscnet.cn/posts/p3420260329</link>
