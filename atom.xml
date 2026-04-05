@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.xscnet.cn/</id>
     <title>-Mete0r's Blog | 壹人小站-</title>
-    <updated>2026-04-05T08:02:33.832Z</updated>
+    <updated>2026-04-05T14:43:25.752Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mete0r</name>
@@ -21,9 +21,9 @@
         <link href="https://www.xscnet.cn/posts/p3520260403"/>
         <updated>2026-04-03T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2>视频教程</h2>
+<p>{% video bilibili:BV1xkSSBrEtT width:100% autoplay:0 %}</p>
 <h2>前言</h2>
-<p><strong>声明：此教程为新手保姆级教程，可能会有对您无用的废话，请移步至右上角菜单自行跳转需要的部分</strong></p>
-<p>写这篇教程的目的也是总结我的踩坑日记，帮助更多的新手</p>
+<p>**声明：此教程为新手保姆级教程，可能会有对您</p>
 <br/><p>访问 <a href="https://www.xscnet.cn/posts/p3520260403" target="_blank">https://www.xscnet.cn/posts/p3520260403</a> 阅读全文。</p>]]></content>
         <author>
             <name>Mete0r</name>

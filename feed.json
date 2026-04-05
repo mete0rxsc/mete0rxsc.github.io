@@ -12,7 +12,7 @@
     "items": [
         {
             "id": "",
-            "content_html": "<h2>视频教程</h2>\n<h2>前言</h2>\n<p><strong>声明：此教程为新手保姆级教程，可能会有对您无用的废话，请移步至右上角菜单自行跳转需要的部分</strong></p>\n<p>写这篇教程的目的也是总结我的踩坑日记，帮助更多的新手</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3520260403\" target=\"_blank\">https://www.xscnet.cn/posts/p3520260403</a> 阅读全文。</p>",
+            "content_html": "<h2>视频教程</h2>\n<p>{% video bilibili:BV1xkSSBrEtT width:100% autoplay:0 %}</p>\n<h2>前言</h2>\n<p>**声明：此教程为新手保姆级教程，可能会有对您</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3520260403\" target=\"_blank\">https://www.xscnet.cn/posts/p3520260403</a> 阅读全文。</p>",
             "url": "https://www.xscnet.cn/posts/p3520260403",
             "title": "使用Hexo搭建自己的博客",
             "date_modified": "2026-04-03T00:00:00.000Z",
