@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h2>写在开头</h2>\n<p>做这个个人主页项目的目的，起因是因为我一直想拥有一个自己的个人主页，但是没有找到合适的模板</p>\n<p>市面上的模板不是过于臃肿，就是配置过于繁杂，反而不像一个个性化的个人主页</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3620260418\" target=\"_blank\">https://www.xscnet.cn/posts/p3620260418</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p3620260418",
+            "title": "轻量化个人主页",
+            "date_modified": "2026-04-18T00:00:00.000Z",
+            "date_published": "2026-04-18T14:08:57.124Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h2>视频教程</h2>\n<p>{% video bilibili:BV1xkSSBrEtT width:100% autoplay:0 %}</p>\n<h2>前言</h2>\n<p>**声明：此教程为新手保姆级教程，可能会有对您</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3520260403\" target=\"_blank\">https://www.xscnet.cn/posts/p3520260403</a> 阅读全文。</p>",
             "url": "https://www.xscnet.cn/posts/p3520260403",
             "title": "使用Hexo搭建自己的博客",

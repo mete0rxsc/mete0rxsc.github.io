@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.xscnet.cn/</id>
     <title>-Mete0r's Blog | 壹人小站-</title>
-    <updated>2026-04-18T12:09:48.250Z</updated>
+    <updated>2026-04-18T14:09:21.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mete0r</name>
@@ -15,6 +15,22 @@
     <logo>https://www.xscnet.cn/avatar1.jpg</logo>
     <icon>https://www.xscnet.cn/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © Mete0r</rights>
+    <entry>
+        <title type="html"><![CDATA[轻量化个人主页]]></title>
+        <id>https://www.xscnet.cn/posts/p3620260418</id>
+        <link href="https://www.xscnet.cn/posts/p3620260418"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>写在开头</h2>
+<p>做这个个人主页项目的目的，起因是因为我一直想拥有一个自己的个人主页，但是没有找到合适的模板</p>
+<p>市面上的模板不是过于臃肿，就是配置过于繁杂，反而不像一个个性化的个人主页</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p3620260418" target="_blank">https://www.xscnet.cn/posts/p3620260418</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Mete0r</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-18T14:08:57.124Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用Hexo搭建自己的博客]]></title>
         <id>https://www.xscnet.cn/posts/p3520260403</id>
