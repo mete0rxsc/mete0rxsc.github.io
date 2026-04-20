@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnet.cn/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Mon, 20 Apr 2026 05:21:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Apr 2026 10:10:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © Mete0r</copyright>
         <atom:link href="https://www.xscnet.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[游戏体验：《PRAGMATA》(识质存在)]]></title>
+            <link>https://www.xscnet.cn/posts/p3720260420</link>
+            <guid>https://www.xscnet.cn/posts/p3720260420</guid>
+            <pubDate>Mon, 20 Apr 2026 10:09:14 GMT</pubDate>
+            <content:encoded><![CDATA[<p>{% hashtag Steam <a href="https://store.steampowered.com/app/3357650/PRAGMATA/">https://store.steampowered.com/app/3357650/PRAGMATA/</a> color:cyan %}<br>
+{% hashtag Ca</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p3720260420" target="_blank">https://www.xscnet.cn/posts/p3720260420</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
         <item>
             <title><![CDATA[轻量化个人主页]]></title>
             <link>https://www.xscnet.cn/posts/p3620260418</link>
