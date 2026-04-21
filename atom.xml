@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.xscnet.cn/</id>
     <title>-Mete0r's Blog | 壹人小站-</title>
-    <updated>2026-04-20T14:15:27.168Z</updated>
+    <updated>2026-04-21T15:09:15.121Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mete0r</name>
@@ -28,7 +28,7 @@
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2026-04-20T10:09:14.264Z</published>
+        <published>2026-04-20T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[轻量化个人主页]]></title>
@@ -44,7 +44,7 @@
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2026-04-18T16:58:21.691Z</published>
+        <published>2026-04-18T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Hexo搭建自己的博客]]></title>
