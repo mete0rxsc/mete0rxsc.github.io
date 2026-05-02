@@ -4,7 +4,7 @@
         <title>-Mete0r's Blog | 壹人小站-</title>
         <link>https://www.xscnet.cn/</link>
         <description>Mete0r-欢迎来到我的虚拟小世界</description>
-        <lastBuildDate>Sat, 25 Apr 2026 13:47:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 15:35:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,18 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © Mete0r</copyright>
         <atom:link href="https://www.xscnet.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[AI导致的乱象以及个人形象与大家的初次见面]]></title>
+            <link>https://www.xscnet.cn/posts/p3820260502</link>
+            <guid>https://www.xscnet.cn/posts/p3820260502</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>{% audio netease:1832684671 %}</p>
+<h2>前言</h2>
+<p>首先在这里，祝大家五一快乐，不过各位五一都是怎么过的呢~</p>
+<p>快高考了，谁能想到我们竟成为了第一届五一五</p>
+<br/><p>访问 <a href="https://www.xscnet.cn/posts/p3820260502" target="_blank">https://www.xscnet.cn/posts/p3820260502</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Mete0r)</author>
+        </item>
         <item>
             <title><![CDATA[游戏体验：《PRAGMATA》(识质存在)]]></title>
             <link>https://www.xscnet.cn/posts/p3720260420</link>

@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<p>{% audio netease:1832684671 %}</p>\n<h2>前言</h2>\n<p>首先在这里，祝大家五一快乐，不过各位五一都是怎么过的呢~</p>\n<p>快高考了，谁能想到我们竟成为了第一届五一五</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3820260502\" target=\"_blank\">https://www.xscnet.cn/posts/p3820260502</a> 阅读全文。</p>",
+            "url": "https://www.xscnet.cn/posts/p3820260502",
+            "title": "AI导致的乱象以及个人形象与大家的初次见面",
+            "date_modified": "2026-05-02T00:00:00.000Z",
+            "date_published": "2026-05-02T00:00:00.000Z",
+            "author": {
+                "name": "Mete0r",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<p>{% hashtag Steam <a href=\"https://store.steampowered.com/app/3357650/PRAGMATA/\">https://store.steampowered.com/app/3357650/PRAGMATA/</a> color:cyan %}<br>\n{% hashtag Ca</p>\n<br/><p>访问 <a href=\"https://www.xscnet.cn/posts/p3720260420\" target=\"_blank\">https://www.xscnet.cn/posts/p3720260420</a> 阅读全文。</p>",
             "url": "https://www.xscnet.cn/posts/p3720260420",
             "title": "游戏体验：《PRAGMATA》(识质存在)",
